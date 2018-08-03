@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#main {
+  font-family: Ubuntu, sans-serif;
+  color: #475B63;
+  background-color: rgba(186, 205, 176, 0.4);
+  width: 98%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+header {
+  display: block;
+  text-align: center;
+  /* height: 50px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  padding-bottom: 30px;
+}
+
+#tribute-info {
+  /* font-weight: bold; */
+  letter-spacing: 5px;
+}
+
+#img-div {
+  margin: 0 auto;
+  width: 98%;
+  background-color: white;
+}
+
+img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+figcaption {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main {
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+h2 {
+  padding-bottom: 30px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+blockquote {
+  border-left: rgba(70, 89, 97, 0.5) solid 10px;
+  padding-left: 20px;
+  font-style: italic;
+  margin: 50px auto;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+}

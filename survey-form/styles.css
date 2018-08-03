@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.container {
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.survey-description {
+  text-align: center;
+  font-size: 1.2em;
+  padding-bottom: 50px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .row>label, .row>input, .row>select, .row>.inputGroup, .row>textarea {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+  }
+  .row>label {
+    width: 50%;
+    text-align: right;
+    padding-left: 10%;
+    padding-right: 30px;
+  }
+
+  input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 45%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .row>label, .row>input, .row>select, .row>.inputGroup, .row>textarea {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+  }
+  /* .row>label {
+    width: 50%;
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 30px;
+  } */
+  input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+  }
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+input, textarea {
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 10px;
+}
