@@ -8,8 +8,8 @@
 
 #main {
   font-family: Ubuntu, sans-serif;
-  color: #475B63;
-  background-color: rgba(186, 205, 176, 0.4);
+  color: #CDCECA;
+  background-color: #A20021;
   width: 98%;
   margin: 30px auto;
   border-radius: 10px;
@@ -52,6 +52,7 @@ img {
 figcaption {
   text-align: center;
   padding-bottom: 20px;
+  color: #A20021;
 }
 
 main {
@@ -69,7 +70,7 @@ li {
 }
 
 blockquote {
-  border-left: rgba(70, 89, 97, 0.5) solid 10px;
+  border-left: #CDCECA solid 10px;
   padding-left: 20px;
   font-style: italic;
   margin: 50px auto;
@@ -78,4 +79,8 @@ blockquote {
 footer {
   text-align: center;
   padding-bottom: 30px;
+}
+
+a {
+  color: #CDCECA;
 }
