@@ -1,0 +1,102 @@
+<!-- Design inspirations from https://dribbble.com/shots/4858944-JP-Cold-Brew -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>青い雲 Café</title>
+  <link rel='stylesheet' href='styles.css'>
+  
+</head>
+<body>
+
+  <header id='header'>
+
+    <div id='nav-left'>
+      <div id='header-brand'>
+        <a href='#top'>
+          <img id='header-img' src='https://png.icons8.com/windows/1600/java-coffee-bean-logo.png'>
+          <p id='header-title'> Aoi Kumo Café</p>
+        </a>
+      </div>
+    </div>
+
+    <div id='nav-right'>
+      <nav id='nav-bar'>
+        <a href='#menu' class='nav-link'>Menu</a>
+        <a href='#locations' class='nav-link'>Locations</a>
+        <a href='#contact' class='nav-link'>Contact Us</a>
+      </nav>
+    </div>
+
+  </header>
+  
+  <main>
+
+    <h1><span class='jp'>青い雲</span></h1>
+
+    <iframe id ='video' width="560" height="315" src="https://www.youtube.com/embed/Z6Dx-o3vfJY?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      
+    <div class='segment' id='newsletter'>
+      <p>Sign up for our newsletters and experience the ZEN</p>
+      <form id='form' action='https://www.freecodecamp.com/email-submit' method='POST'>
+        <input id='email' type='email' placeholder='Email' name='email' required>
+        <input id='submit' type='submit' value='Zen Up'>
+      </form>
+    </div>
+
+    <div class='segment' id='menu'>
+      <h2><span class='jp'>メニ</span> Menu <span class='jp'>ュー</span></h2>
+      <!-- <img src='https://cdn.dribbble.com/users/752561/screenshots/4858944/jp-cold-800x600-mix.jpg'> -->
+      <div class='flex-container'>
+        <div class='box'>
+          <p>Espresso</p>
+          <hr>
+          <img src='https://images.unsplash.com/photo-1528401635478-821b5f89ff94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e8334a67ae696a8e634f0307364b371&auto=format&fit=crop&w=1950&q=80' alt='espresso'>
+        </div>
+        <div class='box'>
+          <p>Cold Brew</p>
+          <hr>
+          <img src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89c21e12da5a1c16539ae341645fb184&auto=format&fit=crop&w=1050&q=80' alt='cold brew'>
+        </div>
+        <div class='box'>
+          <p>Cappucino</p>
+          <hr>
+          <img src='https://images.unsplash.com/photo-1524095731963-b4e38d1b3329?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a99d33450a047b78291350097e7701c&auto=format&fit=crop&w=1050&q=80' alt='cappucino'>
+        </div>
+      </div>
+    </div>
+
+    <div class='segment' id='locations'>
+        <h2><span class='jp'>ロケー</span> Locations <span class='jp'>ション</span></h2>
+        <div class='flex-container'>
+            <div class='box'>
+              <p>Tanjong Pagar</p>
+              <hr>
+              <p>
+                221b Baker St <br>
+                Singapore, 221221
+              </p>
+            </div>
+            <div class='box'>
+              <p>Beauty World</p>
+              <hr>
+              <p>
+                123 Sesame St <br>
+                Singapore, 123123
+              </p>
+            </div>
+        </div>
+    </div>
+    
+  </main>
+
+  <footer id='contact'>
+    <p>Email: aoikumo@gmail.com</p>
+    <p>Phone: +65 8888 8888</p>
+  </footer>
+
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
