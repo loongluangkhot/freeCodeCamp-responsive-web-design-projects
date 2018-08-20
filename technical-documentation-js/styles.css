@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway|Ubuntu+Mono');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  background-color: #FFC145;
+  box-shadow: 2px 0 25px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #2E2C2F;
+}
+
+nav {
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+
+nav>a {
+  display: block;
+  padding: 20px 0;
+}
+
+hr {
+  width: 80%;
+  margin-bottom: 20px;
+  background: #2E2C2F;
+  border: none;
+  border-bottom: 2px solid #2E2C2F;
+  box-shadow: 0 3px 10px #2E2C2F;
+}
+
+#main-doc {
+  font-family: 'Nunito', sans-serif;
+  position: fixed;
+  padding: 0 50px;
+  margin-left: 320px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+h2 {
+  padding-top: 30px;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.code {
+  font-family: 'Ubuntu Mono', serif;
+  background-color: rgba(255, 193, 69, 0.1);
+  color: #2E2C2F;
+  border-radius: 5px;
+  margin: 30px 10%;
+  padding: 20px 50px;
+  line-height: 30px;
+}
