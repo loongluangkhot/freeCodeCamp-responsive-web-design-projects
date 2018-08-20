@@ -71,7 +71,10 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
+  #header {
+    font-size: 80%;
+  }
   #nav-left {
     display: block;
     width: 100%;
@@ -165,7 +168,7 @@ h1 {
   font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   #contact {
     flex-direction: column;
     align-items: center;
