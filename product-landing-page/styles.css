@@ -12,7 +12,6 @@ body {
 #header {
   position: sticky;
   top: 0;
-  width: 100%;
   background-color: #4398EF;
   color: black;
   line-height: 1;
@@ -122,6 +121,11 @@ h1 {
   margin: 50px auto;
 }
 
+.iframe-container {
+  display: flex;
+  margin: 0 10px;
+}
+
 #video {
   display: block;
   margin: 0 auto;
@@ -189,6 +193,10 @@ h2 {
 }
 
 @media (max-width: 800px) {
+  h2 {
+    font-size: 150%;
+  }
+  
   .flex-container {
     flex-direction: column;
     align-items: center;
