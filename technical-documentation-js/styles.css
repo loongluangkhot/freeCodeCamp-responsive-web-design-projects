@@ -5,6 +5,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   position: relative;
+  color: #2E2C2F;
 }
 
 #navbar {
@@ -20,17 +21,21 @@ body {
   flex-direction: column;
 }
 
+header {
+  letter-spacing: 3px;
+}
+
 #navbar a {
   text-decoration: none;
   color: #2E2C2F;
 }
 
-nav {
+#nav-links {
   overflow-y: scroll;
   padding-bottom: 20px;
 }
 
-nav>a {
+.nav-link {
   display: block;
   padding: 20px 0;
 }
@@ -47,24 +52,65 @@ hr {
 #main-doc {
   font-family: 'Nunito', sans-serif;
   position: fixed;
-  padding: 0 50px;
+  padding: 0 3%;
   margin-left: 320px;
   height: 100vh;
   overflow-y: scroll;
+  line-height: 25px;
+}
+
+.main-section {
+  padding: 10px 0;
 }
 
 h2 {
-  padding-top: 30px;
+  color: #FFC145;
   letter-spacing: 5px;
   font-size: 40px;
+  line-height: 40px;
 }
 
-.code {
+code {
+  display: block;
   font-family: 'Ubuntu Mono', serif;
   background-color: rgba(255, 193, 69, 0.1);
   color: #2E2C2F;
   border-radius: 5px;
-  margin: 30px 10%;
+  margin: 30px 5%;
   padding: 20px 50px;
   line-height: 30px;
+}
+
+.code-inline {
+  font-family: 'Ubuntu Mono', serif;
+  background-color: rgba(255, 193, 69, 0.3);
+  padding: 2px;
+  border-radius: 2px;
+}
+
+@media (max-width: 800px) {
+  body {
+    position: static;
+  }
+
+  #navbar {
+    position: static;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .nav-link {
+    padding: 10px 0;
+  }
+
+  #main-doc {
+    position: static;
+    margin: 0 5%;
+    overflow-y: visible;
+  }
+
+  code {
+    margin: 30px 0;
+    padding: 20px 5%;
+  }
 }
