@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Lora|Open+Sans');
+
+color palette {
+  color:
+  #EFEFEE
+  #F9C5B7
+  #CE7650
+  #617895
+  #B0DBD1
+  #153866
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EFEFEE;
+  color: #153866;
+}
+
+.heading {
+  width: 80px;
+}
+
+.link {
+  font-family: 'Karla'
+}
+
+a {
+  text-decoration: none;
+  color: #153866;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 5%;
+}
+
+#nav-links {
+  width: 400px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-social {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
